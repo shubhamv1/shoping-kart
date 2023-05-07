@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+}
+.navbar {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.heading {
+  padding-top: 15px;
+}
+ul li {
+  list-style: none;
+  color: white;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 40px;
+}
+.hoverEffect:hover {
+  background-color: #007c7d;
+  padding: 10px;
+  width: auto;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.anchors {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.para-1 {
+  margin: 50px;
+}
+.para-1 h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.para-1 p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#login {
+  padding: 5px 10px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#signup {
+  padding: 5px 10px;
+  width: 120px;
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.img-3 {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  left: 700px;
+  top: 150px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+.logo-nav {
+  margin-left: 20px;
+}
+@media screen and (max-width:1100px) {
+  .img-3 {
+  
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 350px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .img-3 {
+  
+    width: 500px;
+    height: 400px;
+    left: 40px;
+    top: 300px;
+  }
+}
+@media screen and (max-width:540px) {
+  .img-3 {
+  
+    width: 200px;
+    height: 150px;
+    left: 10px;
+    top: 420px;
+  }
+  ul li a {
+
+    padding-left: 20px;
+  }
+ 
+}
